@@ -13,3 +13,9 @@ Cette configuration Docker permet de démarrer rapidement un environnement de d�
 - Accéder au shell du conteneur PHP : docker compose exec php bash
 - Installer Symfony : composer create-project symfony/skeleton:"7.1.*" .
 - Si besoin d'installer la version web app : composer require webapp
+- Editer le fichier .env pour activer l'accès à la bdd mysql et configurer le mailer
+
+## Accédez à votre application
+- Application Symfony : http://localhost:8080
+- phpMyAdmin : http://localhost:8081
+- MailHog : http://localhost:8025
