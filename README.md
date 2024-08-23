@@ -8,8 +8,8 @@ Cette configuration Docker permet de démarrer rapidement un environnement de d�
 - nginx.conf
 
 ## Utilisation
-1- Placez ces fichiers à la racine de votre projet Symfony.
-2- Lancez les conteneurs : docker compose -f compose.yaml up -d
-3- Accéder au shell du conteneur PHP : docker compose exec php bash
-4- Installer Symfony : composer create-project symfony/skeleton:"7.1.*" .
-5- Si besoin d'installer la version web app : composer require webapp
+- Placez ces fichiers à la racine de votre projet Symfony.
+- Lancez les conteneurs : docker compose -f compose.yaml up -d
+- Accéder au shell du conteneur PHP : docker compose exec php bash
+- Installer Symfony : composer create-project symfony/skeleton:"7.1.*" .
+- Si besoin d'installer la version web app : composer require webapp
