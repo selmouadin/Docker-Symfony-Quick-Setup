@@ -18,4 +18,4 @@ Cette configuration Docker permet de démarrer rapidement un environnement de d�
 ## Accédez à votre application
 - Application Symfony : http://localhost:8080
 - phpMyAdmin : http://localhost:8081
-- MailHog : http://localhost:8025
+- MailPit : http://localhost:8025
